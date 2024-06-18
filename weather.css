@@ -96,3 +96,27 @@ p {
   margin-top: 1.5rem;
   font-size: 1.5rem;
 }
+
+@media (max-width: 810px) {
+  .container h2 {
+    font-size: 2rem;
+  }
+  .container p {
+    font-size: 1rem;
+  }
+
+  input {
+    width: 15rem;
+    height: 1.5rem;
+    font-size: 1rem;
+  }
+  button {
+    width: 8rem;
+    height: 1.5rem;
+    font-size: 1rem;
+  }
+
+  #weatherInfo {
+    font-size: 1rem;
+  }
+}
